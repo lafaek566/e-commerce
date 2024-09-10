@@ -1,0 +1,26 @@
+/* Example CSS for the booking form modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.modal h2 {
+  margin-bottom: 10px;
+}
+.modal label {
+  display: block;
+  margin-bottom: 10px;
+}
+.modal input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+.modal button {
+  margin-right: 10px;
+}
